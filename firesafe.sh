@@ -5,6 +5,6 @@ echo "choose level (critical/moderate/routine)?";
 read ans1;
 if [ $ans1 == "critical" ]
  echo "threat perception level increased";
- else 
+ then 
  echo "have a great day ahead. In the name of the President";
  fi 

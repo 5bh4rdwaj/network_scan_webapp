@@ -1,6 +1,6 @@
 # checks network integrity
 echo "initiating redition operation: FIRE-SAFE"; 
-sleep 3;
+sleep 4;
 echo "choose level (critical/moderate/routine)?";
 read ans1;
 if [ $ans1 == "critical" ]
